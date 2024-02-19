@@ -21,7 +21,7 @@ const SignOutButton = () => {
     }
 
     setIsLoading(false);
-  }, [signOut]);
+  }, []);
 
   return (
     <button onClick={onSignOut} disabled={isLoading} className="btn btn-lg mt-10 w-52 border-neutral-300 bg-neutral-300 hover:border-neutral-400 hover:bg-neutral-400">
